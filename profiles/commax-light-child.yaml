@@ -1,0 +1,11 @@
+name: commax-light-child
+components:
+  - id: main
+    capabilities:
+      - id: switch
+        version: 1
+      - id: refresh
+        version: 1
+    categories:
+      - name: Light
+

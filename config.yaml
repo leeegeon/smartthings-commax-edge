@@ -1,0 +1,5 @@
+name: Commax Light (EW11)
+packageKey: commax-ew11-light
+permissions:
+  lan: {}
+  discovery: {}

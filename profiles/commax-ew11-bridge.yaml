@@ -1,0 +1,31 @@
+name: commax-ew11-bridge
+components:
+  - id: main
+    capabilities:
+      - id: refresh
+        version: 1
+      - id: bridge
+        version: 1
+    categories:
+      - name: Bridge
+preferences:
+  - name: ew11Ip
+    title: "EW11 IP Address"
+    description: "IP address of the Elfin-EW11 adapter"
+    required: true
+    preferenceType: string
+    definition:
+      stringType: text
+      minLength: 7
+      maxLength: 15
+      default: "192.168.0.132"
+  - name: ew11Port
+    title: "EW11 TCP Port"
+    description: "TCP port of the Elfin-EW11 adapter (default 8899)"
+    required: true
+    preferenceType: integer
+    definition:
+      minimum: 1
+      maximum: 65535
+      default: 8899
+
