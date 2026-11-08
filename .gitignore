@@ -1,6 +1,39 @@
-.vscode/
-docs/
-lua_libs-api_v2/
-*_private.md
+# SmartThings Edge Driver packaging & build artifacts
 *.zip
 driver.zip
+build/
+dist/
+.edge/
+lua_libs-api_v2/
+
+# Documentation & Private Notes
+docs/
+*_private.md
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Operating System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
